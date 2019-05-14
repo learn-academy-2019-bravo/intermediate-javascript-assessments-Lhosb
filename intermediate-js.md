@@ -39,7 +39,7 @@
 
 2. What is the difference between a div and a span?
 
-  A div is used to nest html elements. Span is used to group elements in order to style or perform js on them.
+   Div is used to group lines of html inside separate sections on the webpage. Span is used inline usually to add styling to specific elements or words inside a line of html. Span will not force a new html section like a Div does.
 
 3. What is a CSS class? When should you use an id instead of a class?
 
@@ -54,8 +54,10 @@
 
 5. What are three options for creating responsive design?
   Responsive design is used to give the user an experience that responds to the device the user is on.
-  flex
-  scale
+  Three options for creating responsive design are:
+    -Creating dynamic width that changes depending on device size. Ex: style=width:100%
+    -Using media queries to define different styling classes or ids based on different devices
+    -Using bootstrap flexboxes
 
 
 ### Stretch: The following questions are potential interview questions. First, try to answer each question on your own then Google the answer to further your knowledge.
@@ -67,6 +69,8 @@ Front end development is building the part of the app that the user interacts wi
 2. What is block scope in JavaScript?
 
   Block scope has to do with how variables are read in JavaScript. Within certains scopes, such as a function, JavaScript will not read specific variables. Using let, var, and const relate to block scope.
+
+  "A block scope is the area within if, switch conditions or for and while loops. Generally speaking, whenever you see {curly brackets}, it is a block. In ES6, const and let keywords allow developers to declare variables in the block scope, which means those variables exist only within the corresponding block."
 
 3. How would you explain the idea of "inheritance" in object oriented programming?
 
